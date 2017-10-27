@@ -10,8 +10,6 @@ import config from './config.json';
 let app = express();
 app.server = http.createServer(app);
 
-app.set("json spaces", 4);
-
 // logger
 app.use(morgan('dev'));
 
