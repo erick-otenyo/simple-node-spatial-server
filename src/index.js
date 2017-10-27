@@ -22,6 +22,7 @@ app.use(bodyParser.json({
     limit: config.bodyLimit
 }));
 
+//connect to the database and start app
 initializeDb(db => {
 
     // api router
